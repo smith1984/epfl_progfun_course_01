@@ -1,0 +1,15 @@
+;reload; set _root_.org.jetbrains.sbt.StructureKeys.sbtStructureOptions in Global := "download resolveClassifiers resolveSbtClassifiers" ;*/*:dumpStructureTo /tmp/sbt-structure.xml; session clear-all
+console
+exit
+scala
+compile
+test
+compile
+test
+all {file:/home/ito/scalaprojects/example/}root/products {file:/home/ito/scalaprojects/example/}root/test:products
+test
+submit smith150384@gmail.com 5KeQY31D4N11r8nU
+test
+compile
+test
+submit smith150384@gmail.com 5KeQY31D4N11r8nU
